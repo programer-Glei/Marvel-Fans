@@ -50,4 +50,37 @@ body{
     justify-content: space-between;
     padding: 2rem 3rem;
     border-radius: 0.5rem;
+
+    .logo{
+        color: #333;
+        font-size: 2.5rem;
+
+        span{
+            color: $red;
+        }
+    }
+
+    #menu{
+        font-size: 3rem;
+        color: #666;
+        cursor: pointer;
+        display: none;
+    }
+
+    .navbar{
+
+        a{
+            font-size: 2rem;
+            color: #333;
+            margin-left: 3rem;
+
+            &:hover{
+                color: $red;
+            }
+
+            &.active{
+                color: $red;
+            }
+        }
+    }
 }
