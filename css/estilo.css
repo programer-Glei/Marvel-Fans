@@ -43,6 +43,7 @@ body {
   overflow-x: hidden;
 }
 
+/* section HEADER */
 .header {
   position: fixed;
   top: 2.5rem;
@@ -95,5 +96,40 @@ body {
 
 .header .navbar a.active {
   color: #ff1a1a;
+}
+
+/* media queries */
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 768px) {
+  .header #menu {
+    display: block;
+  }
+  .header .navbar {
+    position: fixed;
+    top: 110%;
+    left: 0;
+    background: #fff;
+    width: 100%;
+    border-radius: 0.5rem;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+    opacity: 0;
+  }
+  .header .navbar a {
+    display: block;
+    padding: 2rem;
+    margin: 1rem 0;
+    font-size: 2.5rem;
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1);
+  }
 }
 /*# sourceMappingURL=estilo.css.map */
