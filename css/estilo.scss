@@ -37,6 +37,12 @@ body{
     overflow-x: hidden;
 }
 
+section{
+    min-height: 100vh;
+    padding: 0 7%;
+    padding-top: 11rem;
+}
+
 /* section HEADER */
 .header{
     position: fixed;
