@@ -92,6 +92,18 @@ section{
     }
 }
 
+/* section HOME */
+.home{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/home-bg-min.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 
 /* media queries */
 @media (max-width:991px){
