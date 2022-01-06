@@ -19,7 +19,7 @@ $red:#ff1a1a;
 
 html{
     font-size: 62.5%;
-    overflow-y: hidden;
+    overflow-x: hidden;
 
     &::-webkit-scrollbar{
         width: 1.3rem;
@@ -50,6 +50,12 @@ section{
     font-size: 2rem;
     color: #fff;
     background: $red;
+    padding-top: 1rem;
+    margin-top: 1rem;
+
+    &:hover{
+        transform: scale(1.02);
+    }
 }
 
 /* section HEADER */
@@ -187,5 +193,18 @@ section{
         .fa-times{
             transform: rotate(180deg);
         }
+    }
+
+    .home{
+
+        .content{
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width:400px){
+    html{
+        font-size: 50%;
     }
 }

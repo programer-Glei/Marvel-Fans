@@ -25,7 +25,7 @@
 
 html {
   font-size: 62.5%;
-  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 html::-webkit-scrollbar {
@@ -56,6 +56,13 @@ section {
   font-size: 2rem;
   color: #fff;
   background: #ff1a1a;
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
+
+.btn:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
 }
 
 /* section HEADER */
@@ -209,6 +216,15 @@ section {
   .header .fa-times {
     -webkit-transform: rotate(180deg);
             transform: rotate(180deg);
+  }
+  .home .content {
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 50%;
   }
 }
 /*# sourceMappingURL=estilo.css.map */
