@@ -58,6 +58,16 @@ section{
     }
 }
 
+.heading{
+    text-align: center;
+    color: $red;
+    font-size: 4rem;
+
+    span{
+        color: #666;
+    }
+}
+
 /* section HEADER */
 .header{
     position: fixed;
@@ -146,6 +156,30 @@ section{
             color: #aaa;
             font-size: 2.5rem;
             padding: 1rem 0;
+        }
+    }
+}
+
+/* section GALLERY */
+.gallery{
+    background: #f0f0f0;
+
+    .box-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .box{
+            flex: 1 1 30rem;
+            height: 40rem;
+            overflow: hidden;
+            background: #333;
+            text-align: center;
+            padding: 2rem;
+            margin: 2rem;
+            border-radius: 0.5rem;
+            position: relative;
         }
     }
 }

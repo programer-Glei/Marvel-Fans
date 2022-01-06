@@ -65,6 +65,16 @@ section {
           transform: scale(1.02);
 }
 
+.heading {
+  text-align: center;
+  color: #ff1a1a;
+  font-size: 4rem;
+}
+
+.heading span {
+  color: #666;
+}
+
 /* section HEADER */
 .header {
   position: fixed;
@@ -173,6 +183,39 @@ section {
   color: #aaa;
   font-size: 2.5rem;
   padding: 1rem 0;
+}
+
+/* section GALLERY */
+.gallery {
+  background: #f0f0f0;
+}
+
+.gallery .box-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.gallery .box-container .box {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 30rem;
+          flex: 1 1 30rem;
+  height: 40rem;
+  overflow: hidden;
+  background: #333;
+  text-align: center;
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 0.5rem;
+  position: relative;
 }
 
 /* media queries */
