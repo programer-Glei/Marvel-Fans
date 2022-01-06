@@ -10,6 +10,7 @@
   text-decoration: none;
   -webkit-transition: all 0.3s cubic-bezier(0.16, 0.8, 0.62, 1.52);
   transition: all 0.3s cubic-bezier(0.16, 0.8, 0.62, 1.52);
+  font-weight: normal;
 }
 
 *::-moz-selection {
@@ -47,6 +48,14 @@ section {
   min-height: 100vh;
   padding: 0 7%;
   padding-top: 11rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.7rem 4rem;
+  font-size: 2rem;
+  color: #fff;
+  background: #ff1a1a;
 }
 
 /* section HEADER */
@@ -140,6 +149,23 @@ section {
       -ms-flex: 1 1 40rem;
           flex: 1 1 40rem;
   padding: 4rem 0;
+}
+
+.home .content h3 {
+  color: #ff1a1a;
+  font-size: 4rem;
+  padding-bottom: 1rem;
+}
+
+.home .content h1 {
+  color: #fff;
+  font-size: 7rem;
+}
+
+.home .content p {
+  color: #aaa;
+  font-size: 2.5rem;
+  padding: 1rem 0;
 }
 
 /* media queries */
