@@ -181,6 +181,18 @@ section{
             border-radius: 0.5rem;
             position: relative;
 
+            &:hover .info{
+                bottom: 2rem;
+            }
+
+            &:hover img{
+                transform: scale(1.2);
+            }
+
+            &:hover{
+                background: #111;
+            }
+
             img{
                 height: 100%;
                 object-fit: cover;

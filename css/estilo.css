@@ -218,6 +218,19 @@ section {
   position: relative;
 }
 
+.gallery .box-container .box:hover .info {
+  bottom: 2rem;
+}
+
+.gallery .box-container .box:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.gallery .box-container .box:hover {
+  background: #111;
+}
+
 .gallery .box-container .box img {
   height: 100%;
   -o-object-fit: cover;
