@@ -218,6 +218,20 @@ section {
   position: relative;
 }
 
+.gallery .box-container .box img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.gallery .box-container .box .info {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
 /* media queries */
 @media (max-width: 991px) {
   html {

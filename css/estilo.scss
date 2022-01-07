@@ -180,6 +180,17 @@ section{
             margin: 2rem;
             border-radius: 0.5rem;
             position: relative;
+
+            img{
+                height: 100%;
+                object-fit: cover;
+            }
+
+            .info{
+                position: absolute;
+                bottom: 2rem; left: 50%;
+                transform: translateX(-50%);
+            }
         }
     }
 }
