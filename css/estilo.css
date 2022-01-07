@@ -226,7 +226,7 @@ section {
 
 .gallery .box-container .box .info {
   position: absolute;
-  bottom: 2rem;
+  bottom: 120%;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -245,6 +245,13 @@ section {
   margin-top: -3.7rem;
   padding: 0.5rem 2rem;
   font-size: 2.5rem;
+}
+
+.gallery .box-container .box .info p {
+  font-size: 2rem;
+  color: #666;
+  padding: 0.5rem;
+  padding-top: 2rem;
 }
 
 /* media queries */

@@ -188,7 +188,7 @@ section{
 
             .info{
                 position: absolute;
-                bottom: 2rem; left: 50%;
+                bottom: 120%; left: 50%;
                 transform: translateX(-50%);
                 width: 80%;
                 background: #fff;
@@ -204,6 +204,13 @@ section{
                     margin-top: -3.7rem;
                     padding: 0.5rem 2rem;
                     font-size: 2.5rem;
+                }
+
+                p{
+                    font-size: 2rem;
+                    color: #666;
+                    padding: 0.5rem;
+                    padding-top: 2rem;
                 }
             }
         }
