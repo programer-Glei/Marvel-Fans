@@ -255,6 +255,12 @@ section{
                 font-size: 5.5rem;
                 color: #333;
             }
+
+            p{
+                font-size: 2.2rem;
+                color: #666;
+                padding: 1rem 0;
+            }
         }
     }
 }
@@ -320,5 +326,16 @@ section{
     section{
         padding: 0 3%;
         padding-top: 11rem;
+    }
+
+    .row{
+
+        .image{
+
+            img{
+                height: auto;
+                width: 100%;
+            }
+        }
     }
 }

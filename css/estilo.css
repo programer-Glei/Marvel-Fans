@@ -305,6 +305,12 @@ section {
   color: #333;
 }
 
+.about .row .content p {
+  font-size: 2.2rem;
+  color: #666;
+  padding: 1rem 0;
+}
+
 /* media queries */
 @media (max-width: 991px) {
   html {
@@ -359,6 +365,10 @@ section {
   section {
     padding: 0 3%;
     padding-top: 11rem;
+  }
+  .row .image img {
+    height: auto;
+    width: 100%;
   }
 }
 /*# sourceMappingURL=estilo.css.map */
