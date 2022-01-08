@@ -346,6 +346,45 @@ section {
           box-shadow: 0 0.3rem 0.5rem #000;
 }
 
+.movies .box-container .box img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.movies .box-container .box .info {
+  padding: 2rem;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.movies .box-container .box .info h3 {
+  font-size: 3rem;
+  color: #fff;
+  padding-bottom: 0.5rem;
+}
+
+.movies .box-container .box .info span {
+  font-size: 2rem;
+  color: #ff1a1a;
+}
+
+.movies .box-container .box .info .stars i {
+  font-size: 2rem;
+  color: orange;
+  padding: 1rem 0.1rem;
+}
+
+.movies .box-container .box .info .stars p {
+  font-size: 2rem;
+  color: #ccc;
+  padding: 0.5rem 0;
+}
+
 /* media queries */
 @media (max-width: 991px) {
   html {
