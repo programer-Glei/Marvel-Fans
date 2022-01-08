@@ -229,6 +229,36 @@ section{
     }
 }
 
+/* section ABOUT */
+.about{
+
+    .row{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .image{
+            flex: 1 1 40rem;
+            padding: 2rem 0;
+            text-align: center;
+
+            img{
+                height: 50rem;
+            }
+        }
+
+        .content{
+            flex: 1 1 40rem;
+
+            h3{
+                font-size: 5.5rem;
+                color: #333;
+            }
+        }
+    }
+}
+
 
 /* media queries */
 @media (max-width:991px){
