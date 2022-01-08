@@ -311,6 +311,41 @@ section {
   padding: 1rem 0;
 }
 
+/* section MOVIES */
+.movies {
+  background: #222;
+}
+
+.movies .heading span {
+  color: #fff;
+}
+
+.movies .box-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.movies .box-container .box {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 30rem;
+          flex: 1 1 30rem;
+  height: 40rem;
+  overflow: hidden;
+  position: relative;
+  margin: 2rem;
+  -webkit-box-shadow: 0 0.3rem 0.5rem #000;
+          box-shadow: 0 0.3rem 0.5rem #000;
+}
+
 /* media queries */
 @media (max-width: 991px) {
   html {

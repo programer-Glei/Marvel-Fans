@@ -265,6 +265,34 @@ section{
     }
 }
 
+/* section MOVIES */
+.movies{
+    background: #222;
+
+    .heading{
+
+        span{
+            color: #fff;
+        }
+    }
+
+    .box-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .box{
+            flex: 1 1 30rem;
+            height: 40rem;
+            overflow: hidden;
+            position: relative;
+            margin: 2rem;
+            box-shadow: 0 0.3rem 0.5rem #000;
+        }
+    }
+}
+
 
 /* media queries */
 @media (max-width:991px){
