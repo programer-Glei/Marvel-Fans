@@ -445,12 +445,24 @@ section{
         padding-top: 11rem;
     }
 
-    .row{
+    .about{
+        .row{
 
-        .image{
+            .image{
+    
+                img{
+                    height: auto;
+                    width: 100%;
+                }
+            }
+        }
+    }
 
-            img{
-                height: auto;
+    .products{
+
+        .box-container{
+
+            .box{
                 width: 100%;
             }
         }

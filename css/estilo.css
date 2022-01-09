@@ -497,8 +497,11 @@ section {
     padding: 0 3%;
     padding-top: 11rem;
   }
-  .row .image img {
+  .about .row .image img {
     height: auto;
+    width: 100%;
+  }
+  .products .box-container .box {
     width: 100%;
   }
 }
