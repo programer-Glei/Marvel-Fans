@@ -7,5 +7,31 @@ $(document).ready(function(){
     $(window).on('scroll load',function(){
         $(this).removeClass('fa-times')
         $('.navbar').removeClass('nav-toggle')
+
+        if($(window).scrollTop() > 0){
+            $('.scroll-top').show()
+        }else{
+            $('.scroll-top').hide()
+        }
+
+        // scroll spy
+
+        $('section').each(function(){
+            let height = $(this).height()
+            let offset = $(this).offset().top - 200
+            let id = $(this).attr('id')
+            let top = $(window).scrollTop()
+
+            if(top > offset && top < offset + height){
+                $('.navbar a').removeClass('active')
+                $('.navbar').find(`[href="#${id}"]`).addClass('active')
+            }
+        })
+    })
+
+    // smooth scrolling
+
+    $('a[href*="#"]').on('click',function(e){
+        
     })
 })
