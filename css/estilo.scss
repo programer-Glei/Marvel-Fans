@@ -336,6 +336,34 @@ section{
     }
 }
 
+/* section PRODUCTS */
+.products{
+    background: #eee;
+
+    .box-container{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        .box{
+            margin: 1rem;
+            padding: 2rem;
+            background: #fff;
+            border: 0.1rem solid rgba(0,0,0,0.1);
+            text-align: center;
+
+            &:hover{
+                box-shadow: 0 0.7rem 1rem rgba(0,0,0,0.1);
+            }
+
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+
 
 /* media queries */
 @media (max-width:991px){
