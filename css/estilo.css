@@ -413,6 +413,7 @@ section {
   background: #fff;
   border: 0.1rem solid rgba(0, 0, 0, 0.1);
   text-align: center;
+  width: 27rem;
 }
 
 .products .box-container .box:hover {
@@ -420,8 +421,25 @@ section {
           box-shadow: 0 0.7rem 1rem rgba(0, 0, 0, 0.1);
 }
 
+.products .box-container .box h3 {
+  color: #444;
+  font-size: 3rem;
+}
+
 .products .box-container .box img {
-  width: 100%;
+  margin: 2rem 0;
+  height: 17rem;
+}
+
+.products .box-container .box .price {
+  color: #666;
+  font-size: 3rem;
+}
+
+.products .box-container .box p {
+  color: #999;
+  font-size: 2rem;
+  padding: 1rem 0;
 }
 
 /* media queries */
