@@ -382,6 +382,42 @@ section{
     }
 }
 
+/* section FOOTER */
+.footer{
+    text-align: center;
+    background: #222;
+
+    .share{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 2rem 0;
+
+        a{
+            font-size: 2rem;
+            color: #ccc;
+            padding: 2rem;
+
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.scroll-top{
+    position: fixed;
+    bottom: 7.5rem; right: 2rem;
+    z-index: 1000;
+    display: none;
+
+    img{
+        height: 7rem;
+        filter: drop-shadow(0 0.3rem 0.5rem rgba(0,0,0,0.2));
+    }
+}
+
 
 /* media queries */
 @media (max-width:991px){
